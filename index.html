@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGGMAN EMPIRE | OFFICIAL TERMINAL</title>
+    <style>
+        :root {
+            --primary-red: #8B0000;
+            --dark-bg: #0a0a0a;
+            --text-white: #ffffff;
+            --border-red: #4d0000;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-white);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Логотип в левом углу */
+        .fixed-logo {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 80px;
+            z-index: 1000;
+            filter: drop-shadow(0 0 5px var(--primary-red));
+        }
+
+        header {
+            background: linear-gradient(180deg, #330000 0%, var(--dark-bg) 100%);
+            border-bottom: 3px solid var(--primary-red);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: var(--primary-red);
+            text-transform: uppercase;
+            margin: 0;
+            text-shadow: 2px 2px #000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .flag-box {
+            text-align: center;
+            border: 2px solid var(--primary-red);
+            padding: 15px;
+            background: #111;
+            margin-bottom: 50px;
+        }
+
+        .flag-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .recruitment-poster {
+            display: block;
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto 50px;
+            border: 4px solid var(--primary-red);
+        }
+
+        .section {
+            border: 1px solid var(--border-red);
+            background: rgba(139, 0, 0, 0.05);
+            padding: 30px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section h2 {
+            background-color: var(--primary-red);
+            color: #000;
+            display: inline-block;
+            padding: 5px 20px;
+            margin-top: -45px;
+            margin-left: -10px;
+            font-size: 1.5em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid var(--primary-red);
+        }
+
+        li strong {
+            color: var(--primary-red);
+            display: block;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .doctor-hero {
+            width: 100%;
+            height: auto;
+            border-top: 3px solid var(--primary-red);
+            border-bottom: 3px solid var(--primary-red);
+            margin: 40px 0;
+        }
+
+        .footer {
+            background-color: #111;
+            border-top: 3px solid var(--primary-red);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+
+        .contact-link {
+            color: var(--primary-red);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        .contact-link:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <img src="images.png" alt=""D:\Sublime Text\Eggman_empire.webp"" class="fixed-logo">
+
+    <header>
+        <h1>Eggman Empire</h1>
+        <p>ГЛОБАЛЬНАЯ СЕТЬ РОБОТИЗАЦИИ</p>
+    </header>
+
+    <div class="container">
+
+        <div class="flag-box">
+            <img src="Снимок экрана 2026-01-08 134958.png" alt="Empire Flag">
+        </div>
+
+        <img src="we-want-you-for-the-eggman-empire-v0-ljbyl77hlvgd1.webp" alt="Recruitment" class="recruitment-poster">
+
+        <div class="section">
+            <h2>Имперский Кодекс</h2>
+            <ul>
+                <li><strong>Высший Авторитет</strong>Доктор Эггман — единственный законный правитель. Его воля абсолютна и не подлежит обсуждению. Любое сомнение карается демонтажем.</li>
+                <li><strong>Порядок через Металл</strong>Биологическая жизнь хаотична и полна ошибок. Конечная цель Империи — полная роботизация планеты для достижения идеального порядка.</li>
+                <li><strong>Слово — Команда</strong>Любое распоряжение Доктора должно быть исполнено немедленно. Приоритет выполнения — 100%. Оправдания не принимаются.</li>
+                <li><strong>Эффективность</strong>Каждый юнит обязан работать на пике возможностей. Неисправные или бесполезные ресурсы утилизируются без предупреждения.</li>
+                <li><strong>Протокол «Еж»</strong>Любое обнаружение синих антропоморфных целей требует немедленной мобилизации всех доступных сил бадников.</li>
+            </ul>
+        </div>
+
+        <img src="46f7embd6mee1.jpeg" alt="Supreme Commander" class="doctor-hero">
+
+        <div class="section">
+            <h2>Права Гражданина</h2>
+            <ul>
+                <li><strong>Право на Порядок</strong>Каждый подданный обеспечен защитой и круглосуточным надзором со стороны систем безопасности Egg-Net.</li>
+                <li><strong>Право на Труд</strong>Священная возможность служить величию Империи 24 часа в сутки. Отдых признан пережитком биологического несовершенства.</li>
+                <li><strong>Право на Модернизацию</strong>Приоритетное право на замену хрупких органических частей высокопрочными титановыми сплавами.</li>
+                <li><strong>Право на Информацию</strong>Доступ к единственно верным данным, транслируемым Центральным Управлением Пропаганды.</li>
+                <li><strong>Право на Верность</strong>Право добровольно отдать все ресурсы и силы во славу Доктора Эггмана.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>ЭГГМАНЛЭНД — ЭТО ТВОЯ НЕИЗБЕЖНОСТЬ</p>
+        <p>ПО ВСЕМ ВОПРОСАМ: <a href="https://t.me/RobertuMuha" class="contact-link">@RobertuMuha</a></p>
+    </div>
+
+</body>
+</html>
